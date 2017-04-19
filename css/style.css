@@ -1,0 +1,161 @@
+/*TODO Base Styles*/
+
+body {
+  color: lightgrey;
+}
+
+a {
+  color: #b9b9b9;
+  text-decoration: none;
+}
+
+h2 {
+  color:lightgray;
+}
+
+
+/*TODO Make Navigation*/
+
+.navigation {
+	margin: 0 auto;
+    padding: 0 10px;
+}
+
+.navigation:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    color: grey;
+    float: left;
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 500;
+}
+
+nav ul li {
+  float: right;
+  list-style: none;
+  font-size: .9em;
+  padding: 1em;
+}
+
+nav ul li a {
+  display: inline-block;
+  list-style: none;
+  margin-left: 1em;
+  color: #b9b9b9;
+}
+
+
+/* TODO [x]Full Width Low Opacity Banner Image */
+
+.featured-trailer {
+	background: url(../assets/img/movies/banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 6.5em 0;
+}
+
+.banner-wrapper {
+	width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster {
+	/*float: left;*/
+    position: relative;
+    width: 80%;
+}
+
+.featured-img {
+	width: 100%;
+    max-width: 100%;
+    border-radius: .5em;
+}
+
+/* TODO: Banner Description*/
+
+.banner span {
+  font-weight: 700;
+  color: white;
+}
+
+.featured-title {
+	/*float: left;*/
+    width: 600px;
+    margin-left: 50px;
+    display: inline;
+    font-size: 1em;
+    color: white;
+}
+
+.featured-trailer p {
+  color: white;
+  line-height: 1.5;
+}
+
+/* TODO: Center Play Button On Featured Image*/
+.play-btn {
+  position: absolute;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin: -40px 0 0 -40px;
+}
+
+.fa-play-circle {
+	color: yellow;
+}
+/* TODO: Star Rating*/
+
+.rating {
+  display: inline;
+  margin-left: 1em;
+}
+
+.rating i {
+	color: white;
+    font-size: 1em;
+    margin: 0
+}
+
+/* TODO: [x]Position Images Evenly */
+
+.row img {
+  margin: 0 35px 35px;
+  border-radius: 5%;
+}
+
+/* TODO: Call To Action */
+
+.cta {
+  background: #000;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.subs {
+  background: teal;
+  border-radius: 25%;
+  color: white;
+  display: block;
+  height: 40px;
+  margin: 0 auto;
+  width: 15%;
+}
+
+
+
+
+
+
